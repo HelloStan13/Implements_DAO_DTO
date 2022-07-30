@@ -6,7 +6,7 @@
 - Video explicativo del código de implementación con el análisis de sus diferencias, si trabajan en grupo deben aparecer o participar en el video todos los participantes.
 
 ## Link Video
-[Da click aquí]([https://fir-83199.web.app/preguntas](https://www.youtube.com/watch?v=fUAh3sfng5Q&ab_channel=Adryanynfante))
+[Da click aquí](https://fir-83199.web.app/preguntas](https://www.youtube.com/watch?v=fUAh3sfng5Q&ab_channel=Adryanynfante)
 
 ## by Adryan Ynfante adryanynfante@gmail.com
 
