@@ -1,13 +1,16 @@
-package VO;
+package Model;
 
-
-public class ClienteVO {
+public class Persona {
     private int id;
     private String nombre;
     private String apellido;
 
 
-    public ClienteVO(int id, String nombre, String apellido) {
+    public Persona() {
+        super();
+    }
+    public Persona(int id, String nombre, String apellido) {
+        super();
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;

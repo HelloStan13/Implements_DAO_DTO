@@ -1,30 +1,30 @@
 package DTO;
 
-import BO.ClienteBO;
-import VO.ClienteVO;
+import BO.EmpleadoBO;
+import VO.EmpleadoVO;
 
 public class DTODemo {
     public static void main(String[] args) {
         //objeto business object
-        ClienteBO clienteBusinessObject = new ClienteBO();
+        EmpleadoBO empleadoBusinessObject = new EmpleadoBO();
 
         //obtiene todos los clientes
-        clienteBusinessObject.obtenerClientes().forEach(System.out::println);
+        empleadoBusinessObject.obtenerEmpleados().forEach(System.out::println);
 
-        // actualiza un cliente
+        // actualiza un empleados
         System.out.println("****");
-        ClienteVO cliente = clienteBusinessObject.obtenerCliente(0);
-        cliente.setNombre("Adryan");
-        clienteBusinessObject.actualizarCliente(cliente);
+        EmpleadoVO empleados = empleadoBusinessObject.obtenerEmpelados(0);
+        empleados.setNombre("Adryan");
+        empleadoBusinessObject.actualizarEmpleados(empleados);
 
-        // obtiene un cliente
+        // obtiene un empleados
         System.out.println("****");
-        cliente=clienteBusinessObject.obtenerCliente(0);
-        System.out.println(cliente);
+        empleados=empleadoBusinessObject.obtenerEmpelados(0);
+        System.out.println(empleados);
 
-        //elimina un cliente
+        //elimina un empleados
         System.out.println("****");
-        cliente=clienteBusinessObject.obtenerCliente(0);
-        clienteBusinessObject.eliminarCliente(cliente);
+        empleados=empleadoBusinessObject.obtenerEmpelados(0);
+        empleadoBusinessObject.eliminarEmpleado(empleados);
     }
 }
