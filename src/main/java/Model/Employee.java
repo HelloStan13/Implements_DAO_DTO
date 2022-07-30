@@ -3,9 +3,9 @@ package Model;
 public class Employee {
     private int id;
    private String name;
-    private String apellido;
-    private String direccion;
-    private int edad;
+    private String surname;
+    private String address;
+    private int age;
 
 
  public Employee() { }
@@ -26,27 +26,27 @@ public class Employee {
         this.name = name;
     }
 
-    public String getApellido() {
-        return apellido;
+    public String getSurname() {
+        return surname;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
-    public String getDireccion() {
-        return direccion;
+    public String getAddress() {
+        return address;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public int getEdad() {
-        return edad;
+    public int getAge() {
+        return age;
     }
 
-    public void setEdad(int edad) {
-        this.edad = edad;
+    public void setAge(int age) {
+        this.age = age;
     }
 }
